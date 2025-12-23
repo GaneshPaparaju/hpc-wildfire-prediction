@@ -152,6 +152,26 @@ Predictive accuracy was intentionally treated as **secondary** to HPC analysis.
 - Built-in threading is often optimal for tree-based models
 
 ---
+## 📚 References & Data Sources
+
+- **US Wildfire Dataset** – FireCastRL Lab (2025)  
+  https://www.kaggle.com/datasets/firecastrl/us-wildfire-dataset
+
+- **Amdahl’s Law** – G. M. Amdahl (1967), *Validity of the Single Processor Approach*  
+  Foundational theory used for speedup and efficiency analysis.
+
+- **XGBoost** – Chen & Guestrin (2016), *KDD*  
+  Scalable gradient-boosted tree implementation used for model benchmarking.
+
+- **Scikit-learn** – Pedregosa et al. (2011), *JMLR*  
+  Used for model pipelines, cross-validation, and evaluation.
+
+- **Dask** – Rocklin (2015), *Python in Science Conference*  
+  Used for distributed data loading and model training experiments.
+
+- **GRIDMET Weather Data** – USGS & LANDFIRE Program (2021)  
+  Source of gridded meteorological inputs used in the wildfire dataset.
+---
 
 ## 📂 Repository Structure
 
